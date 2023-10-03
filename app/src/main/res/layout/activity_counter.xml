@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF1DD">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF1DD"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello Android!"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_ADD"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="ADD"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_REDUCE"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="REDUCE"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_CLEAR"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="CLEAR"
+            android:textAllCaps="false" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/cnt_text"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:text="The current number is :"
+                android:textAlignment="center"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/cnt"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:text="0"
+                android:textColor="#FF0000"
+                android:textAlignment="center"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
